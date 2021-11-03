@@ -1,0 +1,81 @@
+{
+  "books": [
+    {
+      "id": 253,
+      "title": "시선으로부터",
+      "author": "정세랑",
+      "cover": "https://image.aladin.co.kr/product/27081/96/cover500/8954679250_1.jpg",
+      "rate": 4,
+      "status": "읽음",
+      "tag": ["소설"]
+    },
+    {
+      "id": 154,
+      "title": "미치지 않고서야",
+      "author": "미노와 고스케",
+      "cover": "https://image.aladin.co.kr/product/19654/96/cover500/8950981831_1.jpg",
+      "rate": 1,
+      "status": "읽음",
+      "tag": ["에세이", "자기계발"]
+    },
+    {
+      "id": 332,
+      "title": "색채가 없는 다자키 쓰쿠루와 그가 순례를 떠난 해",
+      "author": "무라카미 하루키",
+      "cover": "https://image.aladin.co.kr/product/2802/31/cover500/8937487926_3.jpg",
+      "rate": 5,
+      "status": "읽음",
+      "tag": ["소설"]
+    },
+    {
+      "id": 253,
+      "title": "소프트웨어 장인",
+      "author": "산드로 만쿠소",
+      "cover": "https://image.aladin.co.kr/product/6692/58/cover500/k162434762_1.jpg",
+      "rate": 3,
+      "status": "읽음",
+      "tag": ["에세이", "자기계발"]
+    },
+    {
+      "id": 114,
+      "title": "CODE",
+      "author": "찰스 펫졸드",
+      "cover": "https://image.aladin.co.kr/product/5305/11/cover500/8966261256_1.jpg",
+      "rate": 0,
+      "status": "읽는중",
+      "tag": []
+    },
+    {
+      "id": 576,
+      "title": "달까지 가자",
+      "author": "장류진",
+      "cover": "https://image.aladin.co.kr/product/25967/86/cover500/k122737220_1.jpg",
+      "rate": 3,
+      "status": "읽음",
+      "tag": "소설"
+    },
+    {
+      "id": 642,
+      "title": "덧니가 보고 싶어",
+      "author": "정세랑",
+      "cover": "https://image.aladin.co.kr/product/21433/88/cover500/k302636099_1.jpg",
+      "rate": 5,
+      "status": "읽음",
+      "tag": ["소설"]
+    },
+    {
+      "id": 336,
+      "title": "노르웨이의 숲",
+      "author": "무라카미 하루키",
+      "cover": "https://image.aladin.co.kr/product/11561/49/cover500/8937434482_1.jpg",
+      "rate": 5,
+      "status": "읽음",
+      "tag": ["소설"]
+    }
+  ],
+  "user": {
+    "id": 123,
+    "name": "danny",
+    "token": "test12345"
+  }
+}
