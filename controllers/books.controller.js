@@ -3,12 +3,10 @@ const { bookService } = require("../services");
 module.exports = {
   getAll: async (req, res) => {
     try {
-      const books = bookService.getAll();
-      if (books) {
-        res.status(200).json(books);
-      } else {
-        res.sendStatus(404);
-      }
+      /**
+       * 모든 책을 리턴하는 api 입니다.
+       * bookService에서 로직을 가저와서 사용하세요.
+       */
     } catch (e) {
       console.log("err : ", e);
       res.sendStatus(500);
@@ -17,12 +15,9 @@ module.exports = {
 
   getOne: async (req, res) => {
     try {
-      const book = bookService.getOne(parseInt(req.params.id));
-      if (book) {
-        res.status(200).json(book);
-      } else {
-        res.sendStatus(404);
-      }
+      /**
+       * book id를 받아서 해당하는 책을 조회하는 api 입니다.
+       */
     } catch (e) {
       console.log("err : ", e);
       res.sendStatus(500);

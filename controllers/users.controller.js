@@ -4,11 +4,10 @@ const { user } = require("../data.json");
 module.exports = {
   patch: async (req, res) => {
     try {
-      // const { user } = req;
-      // console.log("user : ", user);
-      const { name } = req.body;
-      userService.patch(name);
-      res.status(201).json(user);
+      /**
+       * 유저의 이름을 수정하는 api 입니다.
+       * body로 name을 받아서 수정합니다.
+       */
     } catch (e) {
       console.log("err : ", e);
       res.sendStatus(500);
